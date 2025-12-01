@@ -3,6 +3,13 @@
 When we turn on the PC a special software automatically runs - BIOS.  
 BIOS comes bundled with the computer and is located in ROM. The BIOS and the computer are hardwired to each other and the BIOS cannot be changed or modified.  
 
+There are 3 files in the kernel:
+- kernel.c 
+- boot.S  
+- multiboot.h  
+
+The main difference in boot.S and multiboot.h is that boot.S is in assembly and is the entry point for the kernel as it takes the end point of the bootloader and attaches that to the kernel to make the env ready for high languages.  
+Whereas the file multiboot.h is a header file written in c or a higher language that attaches to the kernel file while compiling and linking to tell the bootloader that this is the kernel and to run it.  
 
 ##### The booting process:  
 
