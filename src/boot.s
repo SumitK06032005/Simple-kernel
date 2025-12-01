@@ -79,7 +79,7 @@ _start:
     mov $stack_top, %esp
 
     /* Transfers control to the C function kernel */
-    call kernel
+    call kernel_main
 
 /* Clears interrupts, disables hardware interrupts - the first step towards halting the CPU */
     cli
