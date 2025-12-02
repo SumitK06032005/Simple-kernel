@@ -8,7 +8,7 @@ ENTRY(_start)
 SECTIONS
 {
     /* setting the start offset */
-    .=0x200000;
+    . = 0x200000;
     /* specifies starting address of section as 2MB from the beginning of the memory region */
 
     /* First put the multiboot header, as it is required to be put very early
@@ -40,4 +40,3 @@ SECTIONS
     }
 
 }
-
