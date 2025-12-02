@@ -11,5 +11,5 @@ Kernel
 |-------notes : contains notes while the making of this project  
 |  
 |-------reference files : code that I copied from bare bones tutorial that will act as a reference for me to learn  
-|
-|-------src : source code for the main kernel
+|  
+|-------src : source code for the main kernel  
