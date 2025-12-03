@@ -24,6 +24,7 @@ if its in multiboot or not */
 
 /* .section is like saying that this thing is like a file that is labelled
 the name written after it */
+/* This is the real multiboot header that the bootloader checks */
 .section .multiboot
 
 /* Ensures that following data is aligned to a 4 byte or 32-bit boundary, which is a
